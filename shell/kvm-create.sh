@@ -2,7 +2,7 @@
 #url         :https://blog.coloz.net
 #version     :Beta0.1
 #mail        :colozhan@gmail.com
-#time        :1452649909
+#time        :1452759771
 #system      :CentOS/RHEL
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 if [ "$(id -u)" -ne "0" ]; then
