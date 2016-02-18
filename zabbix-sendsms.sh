@@ -31,5 +31,5 @@ MESSAGE_ENCODE=$(echo "$MESSAGE_UTF8" | ${XXD} -ps | sed 's/\(..\)/%\1/g' | tr -
 URL="http://sms_api_address$MOBILE_NUMBER&FormatID$MOBILE_NUMBER&FormatID=8&Content=$MESSAGE_ENCODE&ScheduleDate=2010-1-1&TokenID=$TokenID"
 
 #Send
-set -x
+#set -x
 ${CURL} -s --connect-timeout ${TIMEOUT} "${URL}"
