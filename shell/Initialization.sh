@@ -11,7 +11,7 @@
 #host
 echo "initialization 192.168.1.254">>/etc/hosts
 #yum 
-yum install -y gcc gcc-c++ wget screen java nfs* openssh-clients
+yum install -y gcc gcc-c++ wget screen java nfs* openssh-clients lrzsz
 #selinux disabled
 setenforce 0
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
